@@ -37,7 +37,7 @@ yarn teste2e
 # STRUCTURE OF THE PROJECT
 
 As a test app, I've decided to not use a boilerplate like Igniter and many other CLI to generate all the config.
-Using the default React Native CLI to Bootstrap the project and configuring Jest, Typescript, StyledComponents, Navigator, State Management, and Detox shows an understanding of an RC App development end-to-end lifecycle.
+Using the default React Native CLI to Bootstrap the project and configuring Jest, Typescript, StyledComponents, Navigator, State Management, and Detox shows an understanding of an RN App development end-to-end lifecycle.
 
 # Style
 
@@ -64,4 +64,4 @@ Well, that's a lot and the 429 error from the API was a bit frustrating, not sur
 
 And most important I would fetch first the SpaceDev API and mock all the data returned, for launches and agencies. Having all the JSON data locally would make my life easier to keep developing and when creating Unit tests.
 
-After 3 Map libraries tried and a good time wasted I manage to put up and running react-native-maps, the promised of no manual link needed from RC sometimes not true, had to unlink and ios/ pod install many times.
+After 3 Map libraries tried and a good time wasted I manage to put up and running react-native-maps, the promised of no manual link needed from RN sometimes not true, had to unlink and ios/ pod install many times.
