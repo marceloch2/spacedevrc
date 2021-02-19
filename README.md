@@ -57,11 +57,11 @@ Using Detox for E2E test is easy and the plugins and extensions are plenty, the 
 
 Well, that's a lot and the 429 error from the API was a bit frustrating, not sure if it was my fault but after the first hour, I already started to get back the exceed quota error.
 
-I would write a proper structure of typescript interfaces and modules to organize the types;
-I would write Unit tests for SpaceDev Fetch method;
-I would isolate all the filters methods to create Unit tests using Mock data and test all Filters Functionalities required;
-I would make Detox navigate the filters and test the List of launches filtered;
+- I would write a proper structure of typescript interfaces and modules to organize the types;
+- I would write Unit tests for SpaceDev Fetch method;
+- I would isolate all the filters methods to create Unit tests using Mock data and test all Filters Functionalities required;
+- I would make Detox navigate the filters and test the List of launches filtered;
 
 And most important I would fetch first the SpaceDev API and mock all the data returned, for launches and agencies. Having all the JSON data locally would make my life easier to keep developing and when creating Unit tests.
 
-Side note: After 3 Map libraries tried I manage to put up and running react-native-maps, the promised no link needed from RC sometimes is not true, had to unlink and ios/ pod install many times. To make it really works I had to build using XCode at the end.
+After 3 Map libraries tried and a good time wasted I manage to put up and running react-native-maps, the promised of no manual link needed from RC sometimes not true, had to unlink and ios/ pod install many times.
